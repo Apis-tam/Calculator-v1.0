@@ -1,0 +1,67 @@
+.box {
+  border: 3px solid black;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  background-color: #d1dae4;
+  border-radius: 20px;
+}
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.num {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  line-height: 90px;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #cff3f8;
+}
+.num:hover {
+  background-color: grey;
+}
+.input {
+  width: 100%;
+  height: 60px;
+  font-size: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2px 5px;
+  margin-bottom: 20px;
+}
+.clear {
+  background-color: rgb(206, 160, 160);
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  line-height: 90px;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.clear:hover {
+  background-color: grey;
+}
+.result {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  line-height: 90px;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(169, 221, 144);
+}
+.result:hover {
+  background-color: grey;
+}

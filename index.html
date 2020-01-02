@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="calculator" />
+    <meta name="author" content="Apis" />
+    <title>calculator</title>
+
+    <link rel="icon" href="images/favicon.png" />
+
+    <link rel="stylesheet" href="css/libs/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="box">
+            <input
+              type="text"
+              value=""
+              class="input"
+              id="input"
+              placeholder="0"
+            />
+            <div class="numbers">
+              <div class="num" data-name="num">1</div>
+              <div class="num" data-name="num">2</div>
+              <div class="num" data-name="num">3</div>
+              <div class="clear">C</div>
+
+              <div class="num" data-name="num">4</div>
+              <div class="num" data-name="num">5</div>
+              <div class="num" data-name="num">6</div>
+              <div class="num multy" data-name="operator">*</div>
+              <div class="num" data-name="num">7</div>
+              <div class="num" data-name="num">8</div>
+              <div class="num" data-name="num">9</div>
+              <div class="num divide" data-name="operator">/</div>
+              <div class="num plus" data-name="operator">+</div>
+              <div class="num" data-name="num">0</div>
+
+              <div class="num mines" data-name="operator-minus">-</div>
+
+              <div class="result">=</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/libs/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
